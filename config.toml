@@ -38,7 +38,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "#"
+            url = "https://www.linkedin.com/in/minah-popal-255a6617a?trk=people-guest_profile-result-card_result-card_full-click"
             title = "LinkedIn"		
         [[params.social.list]]
             class = "fab"
@@ -118,7 +118,7 @@ theme = "aafu"
         [[params.education.list]]
             degree = "Associate of Science"
             college = "Collin College"
-            dates = "2015 - 2017"
+            gitdates = "2015 - 2017"
 
     # Publication section
     [params.publication]
