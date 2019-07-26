@@ -110,21 +110,15 @@ theme = "aafu"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
+            degree = "B.S. in Software Engineering"
+            college = "University of Texas at Dallas"
+            dates = "2017 - 2020"
             thesis_title = "Effect of humans on other humans: a study of human behavior."
             thesis_link = "#"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "Associate of Science"
+            college = "Collin College"
+            dates = "2015 - 2017"
 
     # Publication section
     [params.publication]
