@@ -118,7 +118,7 @@ theme = "aafu"
         [[params.education.list]]
             degree = "Associate of Science"
             college = "Collin College"
-            gitdates = "2015 - 2017"
+            dates = "2015 - 2017"
 
     # Publication section
     [params.publication]
