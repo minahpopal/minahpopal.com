@@ -54,8 +54,8 @@ theme = "aafu"
         item = "experience"
     [[params.showInAccordion]]
         item = "education"
-    [[params.showInAccordion]]
-        item = "project"
+    #[[params.showInAccordion]]
+    #    item = "project"
     [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
@@ -72,15 +72,23 @@ theme = "aafu"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
-        [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            link = "#"
-            company = "Company Name"
+            position = "Software Engineer Intern"
+            dates = "May 2019 - August 2019"
+            company = "Allstate"
+            details = """<ul>
+                <li>Utilized Agile software development practices as a member of a full-stack Scrum team</li>
+                <li>Gained experience developing Web Applications
+                <ul>
+                    <li>Developed and supported an internal production application</li>
+                    <li>React/Redux and Java (Spring)</li>
+                </ul>
+                <li>Worked closely with senior engineer and enhanced knowledge of JavaScript</li>
+            </ul>"""
+       # [[params.experience.list]]
+        #    position = "Job Title"
+        #    dates = "2018 - 2019"
+        #    link = "#"
+        #    company = "Company Name"
 
     # Education section
     [params.education]
@@ -91,8 +99,6 @@ theme = "aafu"
             degree = "B.S. in Software Engineering"
             college = "University of Texas at Dallas"
             dates = "2017 - 2020"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
         [[params.education.list]]
             degree = "Associate of Science"
             college = "Collin College"
@@ -106,19 +112,7 @@ theme = "aafu"
         [[params.project.list]]
             title = "project"
             url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"            
+            description = "Description of the project"      
 
     # Skill section
     [params.skill]
@@ -142,8 +136,8 @@ theme = "aafu"
         icon = "fas fa-gamepad"
 		
         [[params.hobby.list]]		
-		    hobby = "Cooking"
+		    hobby = "Yoga"
         [[params.hobby.list]]		
-		    hobby = "Hiking"
+		    hobby = "Running"
         [[params.hobby.list]]		
-		    hobby = "Baking"
+		    hobby = "Traveling"
