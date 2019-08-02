@@ -121,14 +121,14 @@ theme = "aafu"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Skill 1, Skill 2"
-            skillrating = 90
+            skill = "Java"
+            skillrating = 75
         [[params.skill.list]]
-            skill = "Skill 3"
-            skillrating = 80
+            skill = "JavaScript"
+            skillrating = 55
         [[params.skill.list]]
-            skill = "Skill 4"
-            skillrating = 50
+            skill = "C++"
+            skillrating = 60
 
     # Hobby section
     [params.hobby]
