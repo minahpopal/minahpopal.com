@@ -43,7 +43,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "#"
+            url = "https://github.com/minahpopal"
             title = "minahpopal"
 
     #Specify what is showin in the Accordion
